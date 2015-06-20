@@ -1,0 +1,77 @@
+
+
+<? include 'header.php'; ?>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-3 sidebar">
+			<h4>
+			<a href="/sterling.php">Sterling</a>
+			<br><a href="/sterling-flatware-patterns.php">Sterling Patterns</a>
+			<br><a href="/silverplate.php">Silverplate</a>
+			<br><a href="/silverplate-flatware-patterns.php">Silverplate Patterns</a>
+			<br><a href="/stainless.php">Stainless</a>
+			<br><a href="/holloware.php">Holloware</a>
+			<br><a href="/china.php">Fine China</a>
+			<br><a href="/crystal.php">Crystal</a>
+			<br><a href="/housewares.php">Housewares</a>
+			<br><a href="/jewelry.php">Jewelry</a>
+			<br><a href="/gallery">Gallery</a>
+			<br><a href="/bridal_registry.php">Registry</a>
+			<br><a href="/our_partners.php">Our Partners</a>
+			<br><a href="/faq.php">FAQs</a>
+			<br><a href="/contact.php">Contact Us</a>
+			</h4>
+			<br>
+			<br>
+			<br>
+			<br>
+			<a href="http://www.facebook.com/CopperLamp" target="_blank"><img src="/images/teasers/facebook_logo.gif" border="0"></a>
+          
+        </div>
+	    <div class="col-lg-9">
+     	
+	     	<?
+			$large_banner = array (
+				'<a href="/bridal_registry.php"><img src="/images/mb-bridal-registry.jpg" height="325" width="650" border="0" alt="Bridal Registry"></a>',
+				'<img src="/images/mb-baby-gifts.jpg" height="325" width="650" border="0" alt="Baby Gifts">',
+				'<a href="/jewelry.php"><img src="/images/mb-fine-jewelry.jpg" height="325" width="650" border="0" alt="Fine Jewelry"></a>',
+				'<img src="/images/mb-party-supplies.jpg" height="325" width="650" border="0" alt="Party Supplies">',
+				'<img src="/images/mb-sterling-tea-sets.jpg" height="325" width="650" border="0" alt="Sterling Tea Sets">'
+			);
+			$short_banner = array(
+				'<img src="/images/sb-julia-knight.jpg" height="225" width="650" alt="Julia Knight" class="short_banner">',
+				'<img src="/images/sb-shelley-kyle.jpg" height="225" width="650" alt="Shelley Kyle Parfums" class="short_banner">',
+				'<img src="/images/sb-christofle.jpg" height="184" width="650" alt="Christofle" class="short_banner">',
+				'<a href="/crystal.php?manufacturer=278"><img src="/images/sb-waterford-mixology.jpg" height="225" width="650" border="0" alt="Waterford Crystal" class="short_banner"></a>',
+				'<a href="/housewares.php?manufacturer=1104"><img src="/images/sb-arthur-court.jpg" height="225" width="650" border="0" alt="Arthur Court" class="short_banner"></a>',
+			);
+			$tall_banner = array(
+				'<a href="/holloware.php?pattern=7224"><img src="/images/tb-baltimore-rose-pitcher.jpg" height="570" width="300" border="0" alt="Baltimore Rose Sterling Pitcher" class="tall_banner"></a>',
+				'<img src="/images/tb-christofle-champagne.jpg" height="570" width="300" border="0" alt="Christofle Sterling Champagne" class="tall_banner">',
+				'<img src="/images/tb-herend-vase.jpg" height="570" width="300" border="0" alt="Estate Herend Queen Victoria Vase" class="tall_banner">',
+				'<img src="/images/tb-mottahedeh-etagere.jpg" height="570" width="300" border="0" alt="Mottahedeh Etagere" class="tall_banner">',
+				'<img src="/images/tb-tobacco-leaf-vase.jpg" height="570" width="300" border="0" alt="Mottahedeh Tobacco Leaf Vase" class="tall_banner">'
+			);
+			?>
+			<? echo $large_banner[rand()%count($large_banner)]; ?>
+
+			<? echo $short_banner[rand()%count($short_banner)]; ?>
+
+			<? echo $tall_banner[rand()%count($tall_banner)]; ?>
+     	</div>
+   </div>
+   
+   <div class="row">
+	   	<div class="col-sm-4 col-md-4"></div>
+	   	<div class="col-sm-4 col-md-4">
+   			<h1>Since 1959</h1>
+   		</div>
+	   	<div class="col-sm-4 col-md-4"></div>
+   </div>
+   
+</div>
+
+
+<?php include 'footer.php' ?>
+

@@ -1,0 +1,47 @@
+/* Custom Styles for Copper Lamp */
+/* Colors:
+	CL Green: #0F5F37 - 19, 95, 55
+	Endive: #D9DCAD
+	Oasis: #B2CA98
+*/
+body > .container {
+	padding-top: 40px;
+}
+body > .container-fluid {
+	padding-top: 40px;
+}
+
+.navbar-brand {
+	float: left;
+	height: 100px;
+	width: 200px;
+	/*padding: 15px 15px;*/
+	line-height: 20px;
+}
+
+.navbar-header {
+	width: 180px;
+	height: 100px;
+}
+
+.search-box {
+	padding: 10px;
+}
+
+.item-selector {
+	margin-top: 15px;
+}
+
+.spacer-row {
+	height: 20px;
+}
+
+.short_banner {
+	margin-top: 20px;
+}
+
+.tall_banner {
+	position: absolute;
+	top: 0px;
+	margin-left: 20px;
+}
